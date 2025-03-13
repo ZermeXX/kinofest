@@ -18,13 +18,15 @@
             <button class="btn" onclick="startQuiz('Комедії')">Комедії</button>
         </div>
         <div id="quiz" class="hidden">
-            <h2 id="current-category"></h2> <!-- Додано відображення категорії -->
-            <h2 id="question"></h2>
-            <div id="options"></div>
-            <p id="timer"></p>
-            <button class="btn next-btn" onclick="nextQuestion()">Наступне питання</button>
-            <button class="btn back-btn" onclick="goBack()">Назад</button>
-            <button class="btn home-btn" onclick="goToMain()">На головну</button>
+            <h2 id="current-category"></h2> <!-- Назва категорії -->
+            <div id="quiz-content">
+                <h2 id="question"></h2> <!-- Питання -->
+                <div id="options"></div> <!-- Варіанти відповідей -->
+                <p id="timer"></p> <!-- Таймер -->
+                <button class="btn next-btn" onclick="nextQuestion()">Наступне питання</button>
+                <button class="btn back-btn" onclick="goBack()">Назад</button>
+                <button class="btn home-btn" onclick="goToMain()">На головну</button>
+            </div>
         </div>
         <div id="result" class="hidden">
             <h2>Ваш результат:</h2>
@@ -32,7 +34,7 @@
             <button class="btn home-btn" onclick="goToMain()">На головну</button>
         </div>
     </div>
-    <div class="copyright">Назарова Діана 9А</div>
+    <div class="copyright">Назарова Діана 9-А кл.</div>
     <script src="script.js"></script>
 </body>
 </html>
