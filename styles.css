@@ -29,7 +29,6 @@ h1 {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background: #FFD700;
     border: none;
     cursor: pointer;
     font-size: 18px;
@@ -38,7 +37,30 @@ h1 {
 }
 
 .btn:hover {
-    background: #FFC300;
+    opacity: 0.9;
+}
+
+/* Колір для кнопок вибору категорії */
+.btn {
+    background: #FFD700; /* Золотий колір */
+}
+
+/* Колір для кнопки "Наступне питання" */
+.next-btn {
+    background: #4CAF50; /* Зелений колір */
+    color: #fff;
+}
+
+/* Колір для кнопки "Назад" */
+.back-btn {
+    background: #f44336; /* Червоний колір */
+    color: #fff;
+}
+
+/* Колір для кнопки "На головну" */
+.home-btn {
+    background: #2196F3; /* Синій колір */
+    color: #fff;
 }
 
 .hidden {
@@ -59,9 +81,15 @@ h1 {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    color: #c0c0c0; /* Світло-сірий колір */
+    color: lightgray; /* Світло-сірий колір */
     font-size: 14px;
     opacity: 0.8;
-    margin: 0; /* Видаляємо зовнішні відступи */
-    padding: 5px; /* Видаляємо внутрішні відступи */
+    margin: 0;
+    padding: 0;
+}
+
+#current-category {
+    color: #FFD700; /* Золотий колір для назви категорії */
+    font-size: 24px;
+    margin-bottom: 20px;
 }
