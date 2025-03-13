@@ -59,7 +59,9 @@ h1 {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    color: #ccc; /* Світло-сірий колір */
+    color: #c0c0c0; /* Світло-сірий колір */
     font-size: 14px;
     opacity: 0.8;
+    margin: 0; /* Видаляємо зовнішні відступи */
+    padding: 0; /* Видаляємо внутрішні відступи */
 }
