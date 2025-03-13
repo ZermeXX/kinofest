@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кіномайстер</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Кіномайстер</h1>
+        <div id="category-selection">
+            <h2>Оберіть категорію:</h2>
+            <button class="btn" onclick="startQuiz('Голлівуд')">Голлівуд</button>
+            <button class="btn" onclick="startQuiz('Українське кіно')">Українське кіно</button>
+            <button class="btn" onclick="startQuiz('Класика')">Класика</button>
+            <button class="btn" onclick="startQuiz('Фантастика')">Фантастика</button>
+            <button class="btn" onclick="startQuiz('Комедії')">Комедії</button>
+        </div>
+        <div id="quiz" class="hidden">
+            <h2 id="question"></h2>
+            <div id="options"></div>
+            <p id="timer"></p>
+            <button class="btn" onclick="nextQuestion()">Наступне питання</button>
+            <button class="btn" onclick="goBack()">Назад</button>
+            <button class="btn" onclick="goToMain()">На головну</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Ваш результат:</h2>
+            <p id="score"></p>
+            <button class="btn" onclick="goToMain()">На головну</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
