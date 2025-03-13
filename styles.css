@@ -40,26 +40,18 @@ h1 {
     opacity: 0.9;
 }
 
-/* Колір для кнопок вибору категорії */
-.btn {
-    background: #FFD700; /* Золотий колір */
-}
-
-/* Колір для кнопки "Наступне питання" */
 .next-btn {
-    background: #4CAF50; /* Зелений колір */
+    background: #4CAF50;
     color: #fff;
 }
 
-/* Колір для кнопки "Назад" */
 .back-btn {
-    background: #f44336; /* Червоний колір */
+    background: #f44336;
     color: #fff;
 }
 
-/* Колір для кнопки "На головну" */
 .home-btn {
-    background: #2196F3; /* Синій колір */
+    background: #2196F3;
     color: #fff;
 }
 
@@ -89,10 +81,11 @@ h1 {
 }
 
 #current-category {
-    color: #FFD700; /* Золотий колір для назви категорії */
+    color: #FFD700;
     font-size: 24px;
     margin-bottom: 20px;
 }
 
 #quiz-content {
     margin-top: 20px;
+}
