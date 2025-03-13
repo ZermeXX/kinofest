@@ -2,9 +2,13 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     color: #fff;
-    background-image: url('img/cinema-background.jpg');
+    background-image: url('https://imgpx.com/zfEWcvS3RWgK.jpg');
     background-size: cover;
     background-position: center;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -49,4 +53,13 @@ h1 {
     font-size: 18px;
     font-weight: bold;
     color: #FFD700;
+}
+
+.copyright {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #ccc; /* Світло-сірий колір */
+    font-size: 14px;
+    opacity: 0.8;
 }
